@@ -1,14 +1,56 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.home h1 {
-
-}
 
 .home ol li::marker {
   font-weight: bold;
 }
 
+header {
+  background-color: rgb(224, 224, 224);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  border-radius: 16px;
+}
+
+header .voltar {
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+}
+
+header .voltar:hover {
+  text-decoration: underline;
+}
+
 header h1 {
-  font-size: 45px
+  font-size: 45px;
+  margin: 0;
+}
+
+main {
+  margin-top: 20px;
+  text-align: center;
+}
+
+main button {
+  font-size: 20px;
+  font-family: inherit;
+  background: teal;
+  color: white;
+  border-radius: 6px;
+  padding: 8px 18px;
+  border: 3px solid transparent;
+  transition: all 200ms ease-in-out;
+}
+
+main button:hover {
+  cursor: pointer;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  background: rgb(0, 104, 104);
+
+}
+
+main p#resultado {
+  font-weight: 500;
+  font-size: 28px;
 }
